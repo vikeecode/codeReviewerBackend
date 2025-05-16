@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express()
 app.use(cors({
-    origin: ['http://localhost:5173',"https://gyanicodereviewer.netlify.app/"], // Replace with your frontend URL
+    origin: ['http://localhost:5173',"https://gyanicodereviewer.netlify.app"], // Replace with your frontend URL
     methods: ['GET', 'POST'],
     credentials: true,
 }));
